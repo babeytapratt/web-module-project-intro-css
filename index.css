@@ -48,12 +48,37 @@ table {
 }
 
 *{
-    box-sizing:border-box;
-    padding:0;
-    margin:0;
-    max-width:100%;
-  }
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    max-width: 100%;
+}
 
-  html{
+html{
     font-size:62.5%;
-  }
+}
+
+body{
+    line-height: 2;
+    font-size: 1.5rem;
+    font-family: 'Roboto Mono', monospace;
+}
+h1{
+    font-family: 'Chelsea Market', cursive;
+    font-size: 10rem;
+}
+
+section{
+    padding: 4% 0;
+}
+
+.links{
+
+    display: inline-block;
+}
+
+.plan{
+    border: 20px;
+    background-color: #FF764E;
+    text-decoration: none;
+}
