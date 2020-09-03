@@ -1,0 +1,188 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+@import url('https://fonts.googleapis.com/css2?family=Chelsea+Market&family=Roboto+Mono&display=swap');
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    max-width: 100%;
+}
+
+html{
+    font-size:62.5%;
+}
+
+body{
+    line-height: 2;
+    font-size: 1.5rem;
+    font-family: 'Roboto Mono', monospace;
+}
+h1{
+    font-family: 'Chelsea Market', cursive;
+    font-size: 9.5rem;
+}
+
+section{
+    padding: 4% 0;
+}
+
+nav a{
+    width: 8%;
+    display: inline-block;
+    text-align: center;
+    border-radius: 10px;
+    padding: 4px;
+    margin: 2% 10% 0 10%;
+    color: #fff;
+    text-decoration: none;
+    line-height: 1.8rem;
+}
+
+.plan{
+    background-color: #FF764E;
+}
+
+.learn{
+    background-color: #5ED3EB;
+}
+
+.involved{
+    background-color: #FFCD69;
+}
+
+.mountains{
+    border-radius: 200px;
+    height: 350px;
+    width: 350px;
+    margin: 1% 5% 2% 6%;
+}
+
+.main_title{
+    display: inline-block;
+    margin: 5% 0 5% 0;
+    width: 60%;
+
+}
+
+h2{
+    font-size: 3rem;
+    text-align: right;
+    margin-right: 21%;
+    margin-bottom: 3%;
+}
+
+h3{
+    font-size: 3.2rem;
+    text-align: center;
+    margin: 0 33% 0 9%;
+    line-height: 3.5rem;
+}
+
+#learn .first{
+    background-color: #DDB9A3;
+    font-size: 3.2rem;
+    text-align: center;
+    color: white;
+    padding: 1% 5% 1% 5%;
+    margin: -8% 4% 0% 4%;
+    line-height: 3.5rem;
+}
+
+#learn .second{
+    background-color: #DDB9A3;
+    font-size: 3.2rem;
+    text-align: center;
+    color: white;
+    padding: 1% 5% 1% 5%;
+    margin: 0% 4%;
+    line-height: 3.5rem;
+}
+
+.camp_fire{
+    height: 300px;
+    width: 150px;
+    margin: -10% 49% 0% 51%;
+}
+
+.fire{
+    text-align: center;
+    width: 19%;
+    margin: 0% 46%;
+    font-size: 1.9rem;
+    line-height: 2rem;
+    margin-top: -4%;
+}
+
+.camper_picture{
+    height: 300px;
+    width: 150px;
+    margin: 0% 49% 0% 51%;
+}
+
+
+.camper{
+    text-align: center;
+    width: 19%;
+    margin: 0% 46%;
+    font-size: 1.9rem;
+    line-height: 2rem;
+    margin-top: -3%;
+    margin-bottom: 2%;
+}
+
+.long_mountain{
+    background-image:url('https://github.com/LambdaSchool/web-module-project-intro-css/blob/main/assets/footer_img.jpg?raw=true');
+    height: 40vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+footer{
+    background-color: #F9E7DC;
+}
