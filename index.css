@@ -65,7 +65,7 @@ body{
 }
 h1{
     font-family: 'Chelsea Market', cursive;
-    font-size: 9.6rem;
+    font-size: 9.5rem;
 }
 
 section{
@@ -86,7 +86,8 @@ section{
     padding: 20px 10px;
     font-size: 3rem;
     color: white;
-    margin: 5%;
+    margin: 5% 7%;
+    width: 1px;
 }
 
 .learn{
@@ -97,7 +98,7 @@ section{
     padding: 20px 10px;
     font-size: 3rem;
     color: white;
-    margin: 5%;
+    margin: 5% 7%;
 }
 
 .involved{
@@ -108,18 +109,14 @@ section{
     padding: 20px 10px;
     font-size: 3rem;
     color: white;
-    margin: 5%;
-}
-
-#title_container{
-    display: inline-block;
+    margin: 5% 7%;
 }
 
 .mountains{
     border-radius: 200px;
     height: 350px;
     width: 350px;
-    margin: 0 5% 3% 6%;
+    margin: 1% 5% 2% 6%;
 }
 
 .main_title{
@@ -133,11 +130,74 @@ h2{
     font-size: 3.2rem;
     text-align: right;
     margin-right: 21%;
+    margin-bottom: 3%;
 }
 
 h3{
     font-size: 3.2rem;
     text-align: center;
-    margin: 0 33% 0 15%;
+    margin: 0 33% 0 13%;
+    line-height: 3.5rem;
+}
 
+#learn .first{
+    background-color: #DDB9A3;
+    font-size: 3.2rem;
+    text-align: center;
+    color: white;
+    padding: 1% 5% 1% 5%;
+    margin: -8% 4% 0% 4%;
+    line-height: 3.5rem;
+}
+
+#learn .second{
+    background-color: #DDB9A3;
+    font-size: 3.2rem;
+    text-align: center;
+    color: white;
+    padding: 1% 5% 1% 5%;
+    margin: 0% 4%;
+    line-height: 3.5rem;
+}
+
+.camp_fire{
+    height: 300px;
+    width: 150px;
+    margin: -10% 49% 0% 51%;
+}
+
+.fire{
+    text-align: center;
+    width: 19%;
+    margin: 0% 46%;
+    font-size: 1.9rem;
+    line-height: 2rem;
+    margin-top: -4%;
+}
+
+.camper_picture{
+    height: 300px;
+    width: 150px;
+    margin: 0% 49% 0% 51%;
+}
+
+
+.camper{
+    text-align: center;
+    width: 19%;
+    margin: 0% 46%;
+    font-size: 1.9rem;
+    line-height: 2rem;
+    margin-top: -3%;
+    margin-bottom: 2%;
+}
+
+.long_mountain{
+    width: 100%;
+    height: 355px;
+    margin-bottom: -1%;
+}
+
+footer{
+    background-color: #F9E7DC;
 }
